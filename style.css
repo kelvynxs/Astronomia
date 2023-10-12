@@ -1,0 +1,87 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image:url('resources/astronomia_galaxy.jpg');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: black; 
+    text-align: center; 
+    padding: 100px; 
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container div{
+    flex: 1;
+
+}
+.container img{
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: black; 
+    text-align: center; 
+    padding: 100px; 
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
